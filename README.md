@@ -58,8 +58,8 @@ Allows manual entry of QR codes when camera hardware is unavailable.
 
 #### Clone the repository
 ```bash
-git clone https://github.com/username/library_attendance.git
-cd library_attendance
+git clone https://github.com/sao-moni/Library_Attendance.git
+cd Library_Attendance
 ```
 
 #### Install dependencies
@@ -110,9 +110,10 @@ Example configuration:
 
 ```json
 {
-  "sound_enabled": true,
-  "camera_index": 0,
-  "qr_save_dir": "path/to/output"
+    "sound_enabled": true,
+    "camera_index": 0,
+    "default_study_year": "2025-2026",
+    "qr_save_dir": "library_data/qr_codes"
 }
 ```
 
